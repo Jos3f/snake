@@ -1,0 +1,19 @@
+#pragma once
+
+#include <iostream>
+#include <vector>
+#include <array>
+#include <chrono>
+#include <thread>
+#include <utility>
+#include <mutex>
+#include <conio.h>
+#include <windows.h>
+#include <ctime>
+#include <string>
+#include <queue>
+#include <cstdlib>
+#include <limits>
+#include <ios>
+#include <cstddef>
+#include <fstream> 
