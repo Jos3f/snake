@@ -8,7 +8,6 @@ Map::Map(unsigned int size) {
 	{
 		map[i] = std::vector<int>(size);
 	}
-	place_food();
 	running = true;
 }
 

@@ -57,6 +57,7 @@ void Game::operator()() {
 		// 	std::cout << chr << "\n";
 		}
 		addPlayer(directions[0], directions[1], directions[2], directions[3]);
+		map->place_food();
 	}
 
 
