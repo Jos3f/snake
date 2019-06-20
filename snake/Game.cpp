@@ -18,7 +18,6 @@ Game::~Game() {
 }
 
 void Game::operator()() {
-	//std::thread t1(&Map::keyboard, map);
 	std::cout << "Welcome to sanke.\nHow many players are you? (Min 1, max 6)\n";
 	int numPlayers;
 	while (true)
@@ -59,7 +58,6 @@ void Game::operator()() {
 		}
 		addPlayer(directions[0], directions[1], directions[2], directions[3]);
 	}
-
 
 
 	std::thread t1(&Game::keyboard, this);
